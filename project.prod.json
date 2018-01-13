@@ -1,0 +1,12 @@
+{
+  "name": "apex_starter",
+  "description":
+    "Project description: Apex starter project with terraform and Go Lambda proxy",
+  "memory": 128,
+  "runtime": "golang",
+  "timeout": 5,
+  "role": "arn:aws:iam::741450390541:role/apex_starter_lambda_function",
+  "environment": {
+    "account_id": "741450390541"
+  }
+}
